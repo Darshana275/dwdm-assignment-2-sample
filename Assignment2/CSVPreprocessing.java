@@ -43,7 +43,7 @@ public class CSVPreprocessing{
             for (int j = i; j < end; j++) {
                 double val = scores.get(j);
                 double smoothed = (Math.abs(val - lower) <= Math.abs(val - upper)) ? lower : upper;
-                System.out.println("  " + val + " -> " + smoothed);
+                System.out.println(val + " -> " + smoothed);
             }
         }
 
