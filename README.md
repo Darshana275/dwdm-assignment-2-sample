@@ -25,9 +25,9 @@ To perform basic data preprocessing operations on a dataset read from a CSV file
 
 ### ✅ Task 3: Normalization
 - Normalize the scores using **Min-Max Normalization** formula:
-$$
+```math
 \text{Normalized Value} = \frac{(value - min)}{(max - min)}
-$$
+```
 - Display original and normalized values.
 
 ---
