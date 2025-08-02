@@ -35,7 +35,7 @@ jobs:
     - name: Initialize grading variables
       id: grading
       run: |
-        points_available=17
+        points_available=16
         points_awarded=0
 
         check_line() {
