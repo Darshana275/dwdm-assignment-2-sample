@@ -28,7 +28,9 @@ jobs:
     - name: Run the program and capture output
       run: |
         mkdir -p output
-        java Assignment2.CSVPreprocessing > output/result.txt
+        cd Assignment2
+        java CSVPreprocessing > ../output/result.txt
+
 
     - name: Initialize grading variables
       id: grading
