@@ -7,7 +7,7 @@ public class CSVPreprocessing{
         List<Double> scores = new ArrayList<>();
 
         // Step 1: Read CSV and remove N/A/null rows
-        System.out.println("=== Task 1: Count valid rows and remove N/A / null rows===");
+        System.out.println("=== Task 1: Count valid rows and remove N/A / null rows ===");
         int validRows = 0;
         try (BufferedReader br = new BufferedReader(new FileReader(fileName))) {
             br.readLine(); // skip header
